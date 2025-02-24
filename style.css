@@ -1,0 +1,147 @@
+/* Základní styl inspirovaný xkcd – jednoduchý, ručně psaný vzhled */
+body {
+  font-family: 'Comic Neue', cursive, sans-serif;
+  margin: 2em;
+  background-color: #fefefe;
+  color: #333;
+  line-height: 1.6;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: inline-flex;
+}
+
+nav li {
+  margin: 0 1em;
+}
+
+#langSwitch {
+  margin-top: 1em;
+}
+
+#langSwitch button {
+  margin: 0 0.5em;
+  padding: 0.4em 0.8em;
+  background-color: #fff;
+  border: 2px dashed #aaa;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 #bbb;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+/* Sekce O mně */
+#about {
+  background-color: #fff9e6;
+  padding: 1em;
+  border: 2px dashed #999;
+  box-shadow: 3px 3px 0 #ccc;
+}
+
+.hidden {
+  display: none;
+}
+
+#toggleAboutBtn {
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  background-color: #fff;
+  border: 2px dashed #aaa;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 #bbb;
+}
+
+/* Mind map container */
+#mindmapContainer {
+  position: relative;
+  height: 300px;
+  padding: 1em;
+  background-color: #fff9e6;
+  border: 2px dashed #999;
+  box-shadow: 3px 3px 0 #ccc;
+}
+
+.mindmap-node {
+  background: #fdfdfd;
+  padding: 0.5em 1em;
+  border: 2px solid #666;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0.5em;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 #ccc;
+}
+
+/* Projekty */
+#projectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.project {
+  background: #fff;
+  border: 2px dashed #aaa;
+  padding: 1em;
+  flex: 1 1 300px;
+  box-shadow: 3px 3px 0 #bbb;
+}
+
+/* Kalendář */
+#calendarContainer {
+  background: #fff;
+  padding: 1em;
+  border: 2px dashed #aaa;
+  box-shadow: 3px 3px 0 #bbb;
+}
+
+/* Podpoř mě – QR kód a seznam podporovaných projektů */
+#support {
+  background-color: #e6f7ff;
+  padding: 1em;
+  border: 2px dashed #999;
+  box-shadow: 3px 3px 0 #ccc;
+}
+
+.qr-code {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.qr-code img {
+  width: 150px;
+  height: 150px;
+}
+
+.supported-projects {
+  text-align: left;
+}
+
+.supported-projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+.supported-projects li {
+  margin-bottom: 0.5em;
+}
+
+/* Styl pro seznam sociálních sítí */
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 1em;
+}

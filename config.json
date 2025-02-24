@@ -1,0 +1,28 @@
+{
+  "youtubeApiKey": "YOUR_YOUTUBE_API_KEY_HERE",
+  "youtubeChannels": [
+    {
+      "id": "UCXXXXXXXXXXXXXXX", 
+      "name": "CareCast Medical"
+    },
+    {
+      "id": "UCYYYYYYYYYYYYYYY", 
+      "name": "Tonemyslitevazne"
+    }
+  ],
+  "saunaEventDate": "2025-06-01",
+  "saunaEventLink": "https://example.com/sauna-event",
+  "supportQRCodeData": "https://donate.example.com",
+  "supportedProjects": [
+    {
+      "name": "Projekt A",
+      "description": "Popis projektu A.",
+      "link": "https://example.com/projektA"
+    },
+    {
+      "name": "Projekt B",
+      "description": "Popis projektu B.",
+      "link": "https://example.com/projektB"
+    }
+  ]
+}

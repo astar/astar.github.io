@@ -1,0 +1,17 @@
+[
+  {
+    "name": "CareCast Medical",
+    "description": "Dynamicky načtený obsah z YouTube kanálu CareCast Medical.",
+    "link": "https://www.youtube.com/@CareCastMedical"
+  },
+  {
+    "name": "Tonemyslitevazne",
+    "description": "Dynamicky načtený obsah z YouTube kanálu Tonemyslitevazne.",
+    "link": "https://www.youtube.com/@Tonemyslitevazne"
+  },
+  {
+    "name": "Další projekt",
+    "description": "Popis dalšího projektu. Přidejte další záznamy podle potřeby.",
+    "link": "https://example.com/dalsi-projekt"
+  }
+]
