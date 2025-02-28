@@ -21,22 +21,12 @@
     </header>
 
     <main>
-        <section id="calendar" class="container">
-            <h2>Předvádění v sauně</h2>
-            <div class="calendar-container">
-                <div class="calendar-header">
-                    <button id="prev-month">&lt;</button>
-                    <h3 id="month-year"></h3>
-                    <button id="next-month">&gt;</button>
-                </div>
-                <div class="weekdays"></div>
-                <div class="calendar-days"></div>
-            </div>
-            <div id="events-list" class="events-container">
-                <h3>Události</h3>
-                <ul class="events-list"></ul>
-            </div>
-        </section>
+<section id="calendar" class="container">
+    <h2>Předvádění v sauně</h2>
+    <div class="calendar-embed-container">
+        <iframe src="https://calendar.google.com/calendar/embed?src=e35dd65db3dfc2ab93b2b9b30cf18039831c11b6bc7d38c30ad8358a4323da25%40group.calendar.google.com&ctz=Europe%2FPrague&mode=MONTH" style="border:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+</section>
 
         <section id="projects" class="container">
             <h2>Projekty</h2>
@@ -48,7 +38,7 @@
         <p>© <span id="current-year"></span> HCI Homepage</p>
     </footer>
 
-    <script src="assets/js/calendar.js"></script>
+<!-- Calendar.js již není používán - nahrazeno embedem -->
     <script src="assets/js/projects.js"></script>
     <script src="assets/js/main.js"></script>
 </body>

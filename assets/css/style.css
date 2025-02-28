@@ -361,3 +361,32 @@ blockquote {
     margin-top: 10px;
     color: var(--light-text);
 }
+
+/* Calendar Embed Styles */
+.calendar-embed-container {
+    position: relative;
+    width: 100%;
+    background-color: var(--card-background);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.calendar-embed-container iframe {
+    display: block;
+    border-radius: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .calendar-embed-container iframe {
+        height: 500px;
+    }
+}
+
+@media (max-width: 480px) {
+    .calendar-embed-container iframe {
+        height: 400px;
+    }
+}
