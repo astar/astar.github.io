@@ -4,7 +4,7 @@
  */
 
 // Google Calendar API Key (you'll need to replace this with your own)
-const CALENDAR_API_KEY = "YOUR_API_KEY"; // Will need to be replaced with a real API key
+const CALENDAR_API_KEY = "AIzaSyDnfTlth7PZZM0o2LvgeQ2CnwLYEjA-bRY"; // Will need to be replaced with a real API key
 const CALENDAR_ID = "e35dd65db3dfc2ab93b2b9b30cf18039831c11b6bc7d38c30ad8358a4323da25@group.calendar.google.com";
 
 // Current date
