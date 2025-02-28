@@ -1,0 +1,88 @@
+{
+  "projects": [
+    {
+      "id": "tone-myslite-vazne",
+      "type": "youtube",
+      "title": "Tone Myslite Vážně",
+      "channelId": "Tonemyslitevazne",
+      "youtubeURL": "https://www.youtube.com/@Tonemyslitevazne",
+      "description": "Kanál zaměřený na vážnou hudbu a hudební teorii. Náš kanál se zabývá různými aspekty klasické hudby, včetně historického kontextu, analýzy skladeb, technických aspektů hudební teorie a mnoha dalších témat.",
+      "thumbnail": "assets/images/tone-thumbnail.jpg",
+      "links": [
+        {
+          "title": "Oficiální web",
+          "url": "https://example.com/tone",
+          "type": "link"
+        },
+        {
+          "title": "Playlist klasické skladby",
+          "url": "https://www.youtube.com/playlist?list=example",
+          "type": "link"
+        },
+        {
+          "title": "Notový materiál",
+          "url": "docs/music-sheets.pdf",
+          "type": "document"
+        },
+        {
+          "title": "Ukázka orchestru",
+          "url": "assets/images/orchestra.jpg",
+          "type": "image"
+        }
+      ],
+      "additionalContent": "Náš kanál vznikl v roce 2020 s cílem přiblížit klasickou hudbu širšímu publiku. Spolupracujeme s hudebníky, pedagogy a dalšími odborníky, abychom přinášeli kvalitní a zajímavý obsah."
+    },
+    {
+      "id": "care-cast-medical",
+      "type": "youtube",
+      "title": "CareCast Medical",
+      "channelId": "CareCastMedical",
+      "youtubeURL": "https://www.youtube.com/@CareCastMedical",
+      "description": "Medicínský podcast a kanál s nejnovějšími informacemi z oblasti zdravotnictví. Náš tým lékařů a zdravotnických odborníků přináší aktuální informace o nejnovějších výzkumech, léčebných postupech a zdravotnických trendech.",
+      "thumbnail": "assets/images/carecast-thumbnail.jpg",
+      "links": [
+        {
+          "title": "Medicínské materiály",
+          "url": "docs/medical-docs.pdf",
+          "type": "document"
+        },
+        {
+          "title": "Podcast",
+          "url": "https://podcasts.example.com/carecast",
+          "type": "link"
+        },
+        {
+          "title": "Infografika zdraví",
+          "url": "assets/images/health-infographic.jpg",
+          "type": "image"
+        }
+      ],
+      "additionalContent": "CareCast Medical je platforma zaměřená na vzdělávání v oblasti zdraví. Naším posláním je poskytovat přesné a aktuální zdravotnické informace způsobem, který je srozumitelný pro širokou veřejnost i odborníky."
+    },
+    {
+      "id": "hci-research",
+      "type": "research",
+      "title": "HCI Research",
+      "description": "Výzkumný projekt zaměřený na Human-Computer Interaction a uživatelské rozhraní. Projekt se zabývá inovativními způsoby interakce člověka s počítačem, s důrazem na intuitivní a přístupná rozhraní.",
+      "thumbnail": "assets/images/hci-thumbnail.jpg",
+      "links": [
+        {
+          "title": "Výzkumná zpráva",
+          "url": "docs/hci-report.pdf",
+          "type": "document"
+        },
+        {
+          "title": "GitHub repozitář",
+          "url": "https://github.com/example/hci-research",
+          "type": "link"
+        },
+        {
+          "title": "Diagram interakce",
+          "url": "assets/images/interaction-diagram.jpg",
+          "type": "image"
+        }
+      ],
+      "additionalContent": "Tento výzkumný projekt je podporován grantem pro inovace v oblasti uživatelských rozhraní. Naším cílem je vyvinout nové paradigma pro interakci člověka s digitálními zařízeními, které bude intuitivnější, přístupnější a efektivnější."
+    }
+  ]
+}
